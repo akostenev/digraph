@@ -43,8 +43,8 @@ public class Main {
         System.out.println("5. " + getLatency(diGraph.getLatency("A-E-D")));
         System.out.println("6. " + diGraph.getPaths("C", "C", 3).size());
         System.out.println("7. " + diGraph.getPathsExact("A", "C", 4).size());
-        System.out.println("8. " + diGraph.getShortestLatency("A", "C"));
-        System.out.println("9. " + diGraph.getShortestLatency("B", "B"));
+        System.out.println("8. " + getLatency(diGraph.getShortestLatency("A", "C")));
+        System.out.println("9. " + getLatency(diGraph.getShortestLatency("B", "B")));
         System.out.println("10. " + diGraph.getPathMaxLatency("C", "C", 30).size());
     }
 
