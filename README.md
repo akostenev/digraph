@@ -1,14 +1,14 @@
 # digraph
 Simple directed graph project, with traces, shortest path, etc.
 
-# Run
-Simple run `java -jar digraph.jar src/main/resources/input`.
+## Run
+Run `java -jar digraph.jar src/main/resources/input`.
 
-# Build jar
+## Build jar
 `mvn package` creates target/digraph.jar.
 
-# Run JUNIT Tests
-`mvn test`
+## Run JUNIT Tests
+Run `mvn test`
 
 Tested with:
 ```
