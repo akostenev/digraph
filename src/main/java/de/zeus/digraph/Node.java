@@ -84,7 +84,7 @@ public class Node {
         }
 
         // for each edge
-        edges.values().parallelStream().forEach(edge -> {
+        edges.values().stream().forEach(edge -> {
 
             // find path
             if (edge.getTo().equals(to)) {
